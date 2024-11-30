@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+.weather-app .title{
+    text-align: center;
+    color: rgb(0, 51, 128);
+    font-size: 48px;
+}
+.search-bar{
+    margin-top: 20px;
+    text-align: center;
+}
+.search-bar input{
+    width: 60%;
+    padding: 5px;
+    border: 1px solid rgb(0, 51, 128);
+    outline: 1px solid rgb(4, 95, 231);
+    border-radius: 8px;
+    font-size: 18px;
+}
+.search-bar button{
+   background-color: rgb(4, 95, 231);
+   color: #fff;
+   border: 0;
+   outline: 0;
+   padding: 5px 20px;
+   border-radius: 8px;
+   margin-left: 10px;
+   font-size: 20px;
+}
+.current-weather{
+    text-align: center;
+    border: 1px solid rgb(4, 95, 231);
+}
+.current-weather h2{
+   color: rgb(0, 51, 128);
+} 
+.current-weather p{
+    font-size: 22px;
+    color: rgb(4, 95, 231);
+}
+.current-weather p span{
+    color: rgb(96, 96, 104);
+}
